@@ -29,22 +29,31 @@ __Questions Answered from the Dataset__
 
 __1) What are the Key Performance Indicators obtained from the Dataset?__
 
-  + Total Revenue:
+  + __Total Revenue:__
      
-        SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
+        SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;        
+    ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/958d5555-d9d8-4446-8ac5-30ce775f7afe)
 
        
   + Average Order Value:
     
-        SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
+        SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales    
+    ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/e20ff23a-8905-426e-87eb-2c4f96dc355c)
+
  
   + Total Pizzas Sold:
     
         SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
+
+    ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/4eb1e79e-a2ab-4aad-9323-1fd33a7b2383)
+
  
   + Total Orders:
     
         SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
+
+    ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/bc9cebcf-3b72-4bcf-8e00-2e73690efc84)
+
   
   + Average Pizzas Per Order:
     
@@ -52,6 +61,9 @@ __1) What are the Key Performance Indicators obtained from the Dataset?__
         CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
         AS Avg_Pizzas_per_order
         FROM pizza_sales
+
+    ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/bc8604a6-f70c-4c4f-8e35-62509a774473)
+
  
 
 
