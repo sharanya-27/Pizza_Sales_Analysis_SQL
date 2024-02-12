@@ -34,6 +34,8 @@ __1) What are the Key Performance Indicators obtained from the Dataset?__
         SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;        
     ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/958d5555-d9d8-4446-8ac5-30ce775f7afe)
 
+    This metric provides a clear measure of the overall financial performance of your pizza sales. It indicates the total amount of money generated from pizza 
+    orders over a specific period, reflecting the revenue potential of your business.
        
   + __Average Order Value:__
     
@@ -61,13 +63,103 @@ __1) What are the Key Performance Indicators obtained from the Dataset?__
         FROM pizza_sales
     ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/bc8604a6-f70c-4c4f-8e35-62509a774473)
 
+__2) Daily Trend for Total Orders__
+
+        SELECT DATENAME(DW, order_date) AS order_day, COUNT(DISTINCT order_id) AS total_orders 
+        FROM pizza_sales
+        GROUP BY DATENAME(DW, order_date)
+        
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/260571ce-94b2-422d-862b-bda5239ba55c)
+
+ __3) Monthly Trend for Orders__
+
+        select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
+        from pizza_sales
+        GROUP BY DATENAME(MONTH, order_date)
+
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/01f1620f-1370-445a-9ccf-4205d9800a30)
+
+__4) % of Sales by Pizza Category__
+
+        SELECT pizza_category, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
+        CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
+        FROM pizza_sales
+        GROUP BY pizza_category
+
+ ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/f994347f-e9e4-4b21-881a-d0259076d310)
+
+ __5) % of Sales by Pizza Size__
+
+        SELECT pizza_size, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
+        CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
+        FROM pizza_sales
+        GROUP BY pizza_size
+        ORDER BY pizza_size
+
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/dfbb62af-e7ba-4735-9f95-e5d120ddff96)
+
+__6) Total Pizzas Sold by Pizza Category__
+
+        SELECT pizza_category, SUM(quantity) as Total_Quantity_Sold
+        FROM pizza_sales
+        WHERE MONTH(order_date) = 2
+        GROUP BY pizza_category
+        ORDER BY Total_Quantity_Sold DESC
+
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/55e05420-3ed8-4d08-a1fa-e622d4200d34)
+
+__7) Top 5 Pizzas by Revenue__
+
+        SELECT Top 5 pizza_name, SUM(total_price) AS Total_Revenue
+        FROM pizza_sales
+        GROUP BY pizza_name
+        ORDER BY Total_Revenue DESC
+        
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/69f9c56f-509c-4eaa-b938-2321ac706c2a)
+
+ __8) Bottom 5 Pizzas by Revenue__
+
+        SELECT Top 5 pizza_name, SUM(total_price) AS Total_Revenue
+        FROM pizza_sales
+        GROUP BY pizza_name
+        ORDER BY Total_Revenue ASC
+
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/d3edfbcb-576d-4a4c-9020-467d0bfe9c92)
  
+__9) Top 5 Pizzas by Quantity__
 
+        SELECT Top 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
+        FROM pizza_sales
+        GROUP BY pizza_name
+        ORDER BY Total_Pizza_Sold DESC
 
-
-
-
-
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/41b9170d-9f41-4fdc-a04b-cfdf57ba1351)
  
+__10) Bottom 5 Pizzas by Quantity__
 
+        SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
+        FROM pizza_sales
+        GROUP BY pizza_name
+        ORDER BY Total_Pizza_Sold ASC
 
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/1f8ff33c-92e4-48a5-a270-5fdf4f0ae844)
+    
+__11) Top 5 Pizzas by Total Orders__
+
+        SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
+        FROM pizza_sales
+        GROUP BY pizza_name
+        ORDER BY Total_Orders DESC
+
+ ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/f34f168f-d7c1-4558-b234-da33b847f527)
+
+ __12) Borrom 5 Pizzas by Total Orders__
+
+        SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
+        FROM pizza_sales
+        GROUP BY pizza_name
+        ORDER BY Total_Orders ASC
+
+ ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/7823e838-30e7-4cbb-b0f9-115952bdb2c8)
+
+  
