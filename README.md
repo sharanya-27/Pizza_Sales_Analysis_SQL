@@ -51,7 +51,8 @@ __1) What are the Key Performance Indicators obtained from the Dataset?__
     
         SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
      
-    ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/4eb1e79e-a2ab-4aad-9323-1fd33a7b2383)
+  ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/4eb1e79e-a2ab-4aad-9323-1fd33a7b2383)
+    
 
   Average order value helps in understanding customer spending habits and the effectiveness of marketing strategies. A higher average order value indicates 
   that customers are spending more per transaction, which can contribute to increased revenue and profitability.
