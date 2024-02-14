@@ -53,8 +53,7 @@ customers are spending more per transaction, which can contribute to increased r
      
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/4eb1e79e-a2ab-4aad-9323-1fd33a7b2383)
     
-Average order value helps in understanding customer spending habits and the effectiveness of marketing strategies. A higher average order value indicates 
-that customers are spending more per transaction, which can contribute to increased revenue and profitability.
+Total pizzas sold is a fundamental metric that directly reflects product demand. It provides insights into consumption patterns and helps in inventory management and production planning. Understanding total pizzas sold enables businesses to meet customer demand efficiently.
     
 + __Total Orders:__
     
@@ -96,8 +95,7 @@ helps in understanding the demand patterns throughout the week or month, enablin
 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/01f1620f-1370-445a-9ccf-4205d9800a30)
 
-The hourly trend of total orders throughout the day provides insights into peak hours or periods of high order activity. Understanding these trends allows for 
-efficient staffing and operational planning to meet customer demand during peak times, ensuring optimal customer service and satisfaction.
+The chart illustrating the monthly trend of total orders offers insights into the overall order activity throughout the month. Identifying peak periods of high order activity can aid in resource allocation, production planning, and promotional efforts. By recognizing monthly trends, businesses can adjust their operations to capitalize on high-demand periods and optimize efficiency during slower periods.
 
 __4) % of Sales by Pizza Category__
 
@@ -121,7 +119,7 @@ insight informs menu optimization strategies, marketing campaigns, and inventory
 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/dfbb62af-e7ba-4735-9f95-e5d120ddff96)
 
-The pie chart depicting the percentage of sales attributed to different pizza sizes provides insights into customer preferences regarding pizza size. 
+The chart depicting the percentage of sales attributed to different pizza sizes provides insights into customer preferences regarding pizza size. 
 Understanding these preferences allows for better inventory management and menu optimization to meet customer demand effectively.
 
 __6) Total Pizzas Sold by Pizza Category__
@@ -134,7 +132,7 @@ __6) Total Pizzas Sold by Pizza Category__
 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/55e05420-3ed8-4d08-a1fa-e622d4200d34)
 
-The funnel chart illustrating the total number of pizzas sold for each pizza category enables comparison of sales performance across different categories. This 
+The chart illustrating the total number of pizzas sold for each pizza category enables comparison of sales performance across different categories. This 
 visualization helps in identifying popular and less popular pizza options, informing marketing strategies and menu adjustments accordingly.
 
 __7) Top 5 Pizzas by Revenue__
@@ -146,7 +144,7 @@ __7) Top 5 Pizzas by Revenue__
         
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/69f9c56f-509c-4eaa-b938-2321ac706c2a)
 
-The bar chart highlighting the top 5 best-selling pizzas based on revenue, total quantity, and total orders identifies the most popular pizza options. This 
+The chart highlighting the top 5 best-selling pizzas based on revenue, total quantity, and total orders identifies the most popular pizza options. This 
 insight aids in understanding customer preferences and allows for targeted promotions or menu enhancements to capitalize on high-demand items.
 
  __8) Bottom 5 Pizzas by Revenue__
@@ -158,7 +156,7 @@ insight aids in understanding customer preferences and allows for targeted promo
 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/d3edfbcb-576d-4a4c-9020-467d0bfe9c92)
 
-Conversely, the bar chart showcasing the bottom 5 worst-selling pizzas based on revenue, total quantity, and total orders helps identify underperforming or less 
+Conversely, the chart showcasing the bottom 5 worst-selling pizzas based on revenue, total quantity, and total orders helps identify underperforming or less 
 popular pizza options. This information is valuable for making strategic decisions such as discontinuing unpopular items or adjusting pricing and marketing 
 strategies to boost sales.
  
