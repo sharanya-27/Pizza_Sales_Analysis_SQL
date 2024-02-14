@@ -1,4 +1,10 @@
 # Pizza Sales Analysis
+-------
+
+![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/751eaddc-3859-4388-86ee-d1cb30fcd229)
+
+
+
 __Tools used : Excel,MS SQL Server,Power BI__
 
 [Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP)
