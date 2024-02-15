@@ -1,5 +1,4 @@
-<div align="center">
-  <h1>Pizza Sales Analysis</h1>
+<div align="center"> <h1>Pizza Sales Analysis</h1>
 </div>
 
 <div align="center">
