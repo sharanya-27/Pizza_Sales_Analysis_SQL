@@ -1,7 +1,13 @@
-# Pizza Sales Analysis
--------
+<div align="center">
+  <h1>Pizza Sales Analysis</h1>
+</div>
 
+<div align="center">
+    
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/9ac41c33-bd49-4c78-8124-4fc5b3c091ec)
+
+</div>     
+
 
 -------
 
