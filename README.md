@@ -46,8 +46,8 @@ __1) What are the Key Performance Indicators obtained from the Dataset?__
    
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/958d5555-d9d8-4446-8ac5-30ce775f7afe)
 
-This metric provides a clear measure of the overall financial performance of your pizza sales. It indicates the total amount of money generated from pizza 
-orders over a specific period, reflecting the revenue potential of your
+This metric provides a clear measure of the overall financial performance of the pizza sales. It indicates the total amount of money generated from pizza 
+orders over a specific period, reflecting the revenue potential of the business.
       
 + __Average Order Value:__
     
@@ -106,7 +106,7 @@ helps in understanding the demand patterns throughout the week or month, enablin
 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/01f1620f-1370-445a-9ccf-4205d9800a30)
 
-The chart illustrating the monthly trend of total orders offers insights into the overall order activity throughout the month. Identifying peak periods of high order activity can aid in resource allocation, production planning, and promotional efforts. By recognizing monthly trends, businesses can adjust their operations to capitalize on high-demand periods and optimize efficiency during slower periods.
+The monthly trend of total orders offers insights into the overall order activity throughout the month. Identifying peak periods of high order activity can aid in resource allocation, production planning, and promotional efforts. By recognizing monthly trends, businesses can adjust their operations to capitalize on high-demand periods and optimize efficiency during slower periods.
 
 __4) % of Sales by Pizza Category__
 
@@ -143,7 +143,7 @@ __6) Total Pizzas Sold by Pizza Category__
 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/55e05420-3ed8-4d08-a1fa-e622d4200d34)
 
-The chart illustrating the total number of pizzas sold for each pizza category enables comparison of sales performance across different categories. This 
+The metric showing total number of pizzas sold for each pizza category enables comparison of sales performance across different categories. This 
 visualization helps in identifying popular and less popular pizza options, informing marketing strategies and menu adjustments accordingly.
 
 __7) Top 5 Pizzas by Revenue__
