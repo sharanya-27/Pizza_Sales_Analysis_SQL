@@ -207,7 +207,7 @@ __11) Top 5 Pizzas by Total Orders__
 Identifying the top 5 pizzas by total orders sheds light on the most frequently ordered pizza varieties. This information helps in understanding customer 
 behavior and preferences, enabling businesses to tailor marketing campaigns and menu offerings to meet customer demand effectively.
 
- __12) Borrom 5 Pizzas by Total Orders__
+ __12) Bottom 5 Pizzas by Total Orders__
 
         SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
         FROM pizza_sales
@@ -217,6 +217,16 @@ behavior and preferences, enabling businesses to tailor marketing campaigns and 
 ![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/7823e838-30e7-4cbb-b0f9-115952bdb2c8)
 
 Identifying the bottom 5 pizzas by total orders reveals less popular or niche pizza options that may require attention or adjustments. Understanding these trends allows businesses to make informed decisions regarding menu adjustments, promotional strategies, or inventory management to optimize sales and customer satisfaction.
+
+__13) Generated various Charts and Visuals on Power BI to identify trends/patterns and gain more insights into the data.__
+
+![image](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/assets/142989454/03741982-c1aa-469d-9408-b61c75ea3ae3)
+![image](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/assets/142989454/17549e8d-69f6-42c8-89ed-aa589a706239)
+
+
+
+
+
 
 __Conclusion__
 ---------
