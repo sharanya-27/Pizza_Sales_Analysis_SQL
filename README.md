@@ -16,7 +16,7 @@ __Tools used : Excel,MS SQL Server,Power BI__
 
 [SQL Analysis-code](sql_analysis)
 
-[Power BI Dashboard- click to view](pizza_bi_dashboard.pdf.pdf) 
+[Power BI Dashboard- click to view](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/files/14561723/Pizza_Sales_BI_Dashboard.pdf)
 
 [Power BI Dashboard- click to interact](https://app.powerbi.com/view?r=eyJrIjoiMWQzOWNmNDItNzZhYS00MDMxLWI5ZDYtM2FmOWUwMzk3ZWIxIiwidCI6IjZmMTFlMWQzLTEyMTAtNDk5YS1iMjY0LTU2NzA0NTY4OGUyNyJ9)
 
